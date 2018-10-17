@@ -37,6 +37,7 @@ public class Mode {
         int c7 = 7;
         int c8 = 8;
         int c9 = 9;
+        int mode = 0;
         int[] array2 = new int[10];
         while (number > 0){
         if(number % 10 == c0) {
@@ -69,7 +70,9 @@ public class Mode {
         else if(number % 10 == c0) {
             c0++;
         }
-        
+        for(int i = 0; i < 10; i++) {
+
+        }
 
 
 
