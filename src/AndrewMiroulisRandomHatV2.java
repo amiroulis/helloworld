@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RandomHatV2 {
+public class AndrewMiroulisRandomHatV2 {
     public static void main(String[] args) {
         amountteams();
 
