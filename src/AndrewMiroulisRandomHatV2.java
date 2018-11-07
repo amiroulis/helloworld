@@ -8,18 +8,23 @@ public class AndrewMiroulisRandomHatV2 {
     }
     public static void amountteams() {
         Scanner input = new Scanner(System.in);
-        int nteams = 0;
+
         int counter = 1;
+        int[] teams = {};
+        int nteams = 0;
+
         do {
             if (counter > 1) {
                 System.out.println("I'm sorry, that is not a valid number, please enter an even number.");
             }
+
             System.out.print("How many teams would you like? ");
-            nteams = input.nextInt();
+             nteams = input.nextInt();
             counter++;
-        } while(nteams % 2 != 0);
-       int[] teams = fillarray(nteams);
-       printteams(nteams, teams);
+
+        } while(teams.length % 2 != 0);
+       teams = fillarray(nteams);
+       printteams(teams);
 
 
 
@@ -33,7 +38,7 @@ public class AndrewMiroulisRandomHatV2 {
         }
         return teams;
     }
-    public static void printteams(int nteams, int[] teams) {
+    public static void printteams(int[] teams) {
         int team1 = 0;
         int team2 = 0;
         for (int i = 0; i < teams.length / 2; i++) {

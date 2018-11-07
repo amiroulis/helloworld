@@ -5,12 +5,7 @@ import java.util.Scanner;
 public class AndrewMiroulisWeatherAnalysis {
     public static void main(String[] args) {
         weather(); // calling the weather method, which then calls other methods
-         }
-
-
-
-
-
+    }
 
 
     public static void weather() { // creates variables and calls methods which it passes parameters to
@@ -29,7 +24,6 @@ public class AndrewMiroulisWeatherAnalysis {
         System.out.println(counter + " days were above average.");
 
 
-
     }
 
     public static int temperatures(int csum, int temps[], int ntemps, Scanner input) { // prints out the temps for each day and returns the cumulative sum, which it calculated
@@ -37,9 +31,6 @@ public class AndrewMiroulisWeatherAnalysis {
             System.out.print("Day " + (i + 1) + "'s high temp:");
             temps[i] = input.nextInt();
             csum += temps[i];
-
-
-
         }
         return csum;
     }
