@@ -1,6 +1,6 @@
 public class Mode {
     public static void main(String[] args) {
-        int number = 123456789;
+        int number = 22446678;
         mode(number);
        // mode2(number);
 
@@ -26,7 +26,7 @@ public class Mode {
 
         }
 
-    public static void mode2(int number) {
+  /*  public static void mode2(int number) {
         int c0 = 0;
         int c1 = 1;
         int c2 = 2;
@@ -80,5 +80,5 @@ public class Mode {
 
     }
 
-}
+} */
 }
