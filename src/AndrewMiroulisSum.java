@@ -8,9 +8,9 @@ import java.io.File;
 public class AndrewMiroulisSum {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scan = new Scanner(new File("sum.txt"));
-        Scanner scan2 = new Scanner(scan.nextLine());
-      //  printFile(scan, scan2);
-        Scanner scan3 = new Scanner(new File("sum.txt"));
+        //  Scanner scan2 = new Scanner(scan.nextLine());
+        printFile(scan /*scan2 */);
+     /*   Scanner scan3 = new Scanner(new File("sum.txt"));
         Scanner scan4 = new Scanner(new File("sum.txt"));
         Scanner line = new Scanner(scan.nextLine());
         scan = scan2;
@@ -135,18 +135,22 @@ public class AndrewMiroulisSum {
 
 
 
-    }
-   /*   public static void printFile(Scanner scan, Scanner scan2) {
-        boolean blah = scan2.hasNext();
-        while (scan.hasNextLine()) {
-            System.out.print(blah);
+    } */
 
-            while (scan2.hasNext()) {
-                System.out.println(scan2.next());
+    }
+
+    public static void printFile(Scanner scan) throws FileNotFoundException {
+        String text = "";
+        while (scan.hasNextLine()) {
+            text = scan.nextLine();
+             Scanner line = new Scanner(text);
+
+            while(line.hasNext()) {
+                System.out.print(line.next() + " ");
+
 
             }
-            scan.nextLine();
-            System.out.println();
+             System.out.println();
         }
-      } */
+    }
 }
