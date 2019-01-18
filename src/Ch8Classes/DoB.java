@@ -1,7 +1,7 @@
 package Ch8Classes;
 
 public class DoB {
-    private final int day;
+  /*  private final int day;
     private final int month;
     private final int year;
 
@@ -13,5 +13,5 @@ public class DoB {
     public  DoB getDoB () {
 
 
-    }
+    } */
 }

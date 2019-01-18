@@ -1,5 +1,5 @@
 package Ch8Classes;
 
 public class Soda {
-    private final double cost =  
+   // private final double cost =
 }

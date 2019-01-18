@@ -1,7 +1,7 @@
 package Ch8Classes;
 
 public class BankAccountV1 {
-    //state fields
+ /*   //state fields
     private double balance;
     private int pin;
     private String name;
@@ -12,13 +12,13 @@ public class BankAccountV1 {
     public BankAccountV1(String name, String SSN, Address address, DoB DOB) {
         this.name = name;
         this.SSN = SSN;
-        this.address = address;
+       // this.address = address;
         this.DOB = DOB;
     }
     public BankAccountV1(String name, String SSN, Address address, DoB DOB, int pin, double balance) {
         this.name = name;
         this.SSN = SSN;
-        this.address = address;
+     //   this.address = address;
         this.DOB = DOB;
         this.pin = pin;
         this.balance = balance;
@@ -50,6 +50,6 @@ public class BankAccountV1 {
     public String toString() {
         return "Andrew Miroulis Balance: " + balance;
 
-    }
+    } */
 
 }

@@ -1,7 +1,7 @@
 package Ch8Classes;
 
 public class GroceryItemOrder {
-   private String name;
+  /* private String name;
    private int quantity;
    private double ppu;
 
@@ -15,7 +15,7 @@ public class GroceryItemOrder {
    }
    public void setQuantity(int quantity) {
        this.quantity = quantity;
-   }
+   } */
 
 
 
